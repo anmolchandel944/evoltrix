@@ -1,0 +1,154 @@
+/* About Section Styling */
+.about-section {
+    /* background-image: url(img/1.jpg); */
+  /* background: linear-gradient(135deg, #b11fdd, #f7faff); */
+  background-color:  rgba(10, 30, 39, 0.8);
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+
+  color: #bfc9da;
+
+
+}
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.8rem;
+  color: #c48718;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about-section .intro {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.about-box {
+  background: #d7c7e6;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+}
+
+.about-box h3 {
+  font-size: 1.3rem;
+  color: #0d1117;
+  margin-bottom: 10px;
+}
+
+.about-box p, .about-box ul {
+  font-size: 1rem;
+  color: #0f0f0f;
+  text-align: left;
+}
+
+.about-box ul {
+  padding-left: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #1f6feb;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #effd2b;
+  color: black;
+}
+
+
+
+.btn-1 {
+  display: inline-block;
+  background-color: #1f6feb;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-1:hover {
+   background-color: #effd2b;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+/* footer section  */
+
+.footer {
+  background:transparent;
+  /* background:10px; */
+    
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  margin: 8px 0;
+}
+
+.footer-links {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+     color: yellow;
+}

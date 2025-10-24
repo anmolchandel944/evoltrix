@@ -1,0 +1,239 @@
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f2027;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+/* Join Section */
+.join-section {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  max-width: 1100px;
+  margin: auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Background Blur */
+.bg-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('1.jpg') no-repeat center center/cover;
+  filter: blur(29px);
+  z-index: 0;
+  opacity: 0.9;
+}
+
+/* Content */
+.join-content {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  backdrop-filter: brightness(1.1);
+}
+
+/* Header */
+.join-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.join-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00c9a7;
+}
+
+.join-header p {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+/* Roles */
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.role-card {
+  flex: 1 1 45%;
+  background: rgba(255, 255, 255, 0.363);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.role-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #00c9a7;
+}
+
+.role-card p {
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+
+/* Form */
+.join-form {
+  background: rgba(255, 255, 255, 0.322);
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.join-form h2 {
+  margin-bottom: 20px;
+  color: #00c9a7;
+}
+
+.join-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* This makes dropdown options readable */
+.join-form select option {
+  color: black;
+  background-color: white;
+}
+
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Placeholder text color - for all browsers */
+.join-form input::placeholder,
+.join-form textarea::placeholder {
+  color: #ffffff;
+  opacity: 0.8; /* optional, you can remove this */
+}
+
+
+.join-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.join-form button {
+  background-color: #00c9a7;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.join-form button:hover {
+  background-color: yellow;
+  color:black;
+}
+
+
+
+
+
+/* footer section */
+
+.footer {
+  background:transparent;
+  /* background:10px; */
+    
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fffb00;
+}
+
+.footer-bottom {
+  margin-top: 2px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .roles {
+    flex-direction: column;
+  }
+
+  .role-card {
+    flex: 1 1 100%;
+  }
+}
